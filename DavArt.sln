@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavArt.API", "DavArt.API\DavArt.API.csproj", "{A2E777E3-80AF-412B-AF18-C644F84A0FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavArt.DAL", "DavArt.DAL\DavArt.DAL.csproj", "{834F2BBB-2EF4-447B-96C6-933D8209CFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavArt.BLL", "DavArt.BLL\DavArt.BLL.csproj", "{9FC3D184-F916-4B41-9EA5-4E6D74F419B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E777E3-80AF-412B-AF18-C644F84A0FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E777E3-80AF-412B-AF18-C644F84A0FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E777E3-80AF-412B-AF18-C644F84A0FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E777E3-80AF-412B-AF18-C644F84A0FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834F2BBB-2EF4-447B-96C6-933D8209CFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834F2BBB-2EF4-447B-96C6-933D8209CFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834F2BBB-2EF4-447B-96C6-933D8209CFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834F2BBB-2EF4-447B-96C6-933D8209CFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC3D184-F916-4B41-9EA5-4E6D74F419B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC3D184-F916-4B41-9EA5-4E6D74F419B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC3D184-F916-4B41-9EA5-4E6D74F419B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC3D184-F916-4B41-9EA5-4E6D74F419B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E886FD79-4F30-4F5F-A81A-675E92145F68}
+	EndGlobalSection
+EndGlobal
