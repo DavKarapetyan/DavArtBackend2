@@ -1,4 +1,6 @@
 ﻿using DavArt.DAL;
+using DavArt.DAL.Entities;
+using DavArt.DAL.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DavArt.API.Controllers
@@ -7,6 +9,8 @@ namespace DavArt.API.Controllers
     public class FirstController : ControllerBase
     {
         private readonly DavArtContext _context;
+        private readonly IProductRepository _productRepository;
+        private readonly IUnitOfWork _uow;
         public FirstController(DavArtContext context) { 
             _context = context;
         }
@@ -21,5 +25,6 @@ namespace DavArt.API.Controllers
             var data = _context.ParsedProducts.Where(p => p.ProductId == id).ToList();
             return Ok(data);
         }
+        
     }
 }
