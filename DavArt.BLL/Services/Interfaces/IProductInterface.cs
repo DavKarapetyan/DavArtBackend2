@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DavArt.BLL.ViewModels.Product;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,6 @@ namespace DavArt.BLL.Services.Interfaces
     public interface IProductInterface
     {
         Task Add(ProductViewModel model);
-
+        Task Update(ProductViewModel model)
     }
 }
