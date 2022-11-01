@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DavArt.DAL
 {
-    public class UnitOfwork
+    public class UnitOfwork : IUnitOfWork
     {
         private readonly DavArtContext _context;
         public UnitOfwork(DavArtContext context)

@@ -9,6 +9,8 @@ namespace DavArt.API.Controllers
     public class FirstController : ControllerBase
     {
         private readonly DavArtContext _context;
+        private readonly IProductRepository _productRepository;
+        private readonly IUnitOfWork _uow;
         public FirstController(DavArtContext context) { 
             _context = context;
         }
