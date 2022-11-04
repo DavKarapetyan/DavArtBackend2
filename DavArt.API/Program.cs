@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using DavArt.DAL;
 using DavArt.DAL.Repositories.Interfaces;
 using DavArt.DAL.Repositories;
+using DavArt.BLL.Services.Interfaces;
+using DavArt.BLL.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,8 @@ builder.Services.AddScoped<IParsedProductRepository, ParsedProductRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ISourceRepository, SourceRepository>();
 builder.Services.AddScoped<IVendorRepository, VendorRepository>();
+builder.Services.AddScoped<IParsedProductRepository, ParsedProductRepository>();
+builder.Services.AddScoped<IParserInterface, ParserInterface>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

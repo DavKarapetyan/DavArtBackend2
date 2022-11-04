@@ -11,5 +11,6 @@ namespace DavArt.DAL.Repositories.Interfaces
     {
         void AddSource(Source model);
         void UpdateSource(Source model);
+        Source GetSourceById(int id);
     }
 }

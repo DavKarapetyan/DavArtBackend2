@@ -28,5 +28,8 @@ namespace DavArt.DAL.Repositories
             entity.ParsedProducts = model.ParsedProducts;
             entity.Url = model.Url;
         }
+        public Source GetSourceById(int id) {
+            return _context.Sources.FirstOrDefault(a => a.Id == id);
+        }
     }
 }

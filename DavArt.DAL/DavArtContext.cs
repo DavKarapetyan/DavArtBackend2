@@ -20,5 +20,6 @@ namespace DavArt.DAL
         public DbSet<Product> Products { get; set; }
         public DbSet<Vendor> Vendors { get; set; }
         public DbSet<Source> Sources { get; set; }
+        public DbSet<SourceCategory> SourceCategories { get; set; }
     }
 }
